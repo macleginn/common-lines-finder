@@ -9,4 +9,4 @@ The usage is straightforward:
 ~ $ java RecurringLinesFinder [path to the texts directory here]
 ```
 
-The results are printed to the report.txt file, which is updated online. The same algorithm (except the concurrency element) implemented in Python 3 took several days — and not 66 seconds — to process a directory with 600-odd files so I took a precaution to be able to obtain some results ASAP. It turned out that this was unnecessary.
+The results are printed to the report.txt file, which is updated on-line. The same algorithm (except the concurrency element) implemented in Python 3 took several days — and not 66 seconds — to process a directory with 600-odd files so I took a precaution to be able to obtain some results ASAP. It turned out that this was unnecessary.
