@@ -37,6 +37,7 @@ public class RecurringLinesFinder {
         while (!executor.isTerminated()) {
         	;
         }
+        queue.add("all done");
         System.out.println("All done in " + (System.currentTimeMillis() - startTime) / 1000 + " seconds.");
 	}
 }
