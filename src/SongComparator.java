@@ -40,7 +40,7 @@ public class SongComparator {
 		index1 = 0;
 		index2 = 0;
 		boolean madeAJump;
-		ArrayList<String> temp 		  = new ArrayList<String>();
+		ArrayList<String> temp 	      = new ArrayList<String>();
 		StringBuilder commonLinesTemp = new StringBuilder();
 		while (index1 < so1len && index2 < so2len) {
 			madeAJump = false;
